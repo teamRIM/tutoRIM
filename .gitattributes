@@ -1,0 +1,2 @@
+*.tif filter=lfs diff=lfs merge=lfs -text
+data/*.tif filter=lfs diff=lfs merge=lfs -text
