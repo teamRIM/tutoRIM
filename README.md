@@ -14,3 +14,9 @@ The CNRS makes no warranties of any kind on this software and shall in no event 
 
 * simon.labouesse@gmail.com
 * thomas.mangeat@univ-tlse3.fr
+
+# Contributors
+
+* Simon Labouesse
+* Claire Estibal
+* Thomas Mangeat
