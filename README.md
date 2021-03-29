@@ -2,6 +2,10 @@
 
 Download: https://github.com/teamRIM/tutoRIM/raw/main/bin/MyAppInstaller_web.exe
 
+Only for Windows.
+Tested on:
+  * Windows 10
+  
 
 # Conditions of use
 
