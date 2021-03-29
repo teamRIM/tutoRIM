@@ -1,6 +1,6 @@
 # AlgoRIM
 
-Download: https://github.com/teamRIM/tutoRIM/raw/main/bin/MyAppInstaller_web.exe
+Download: https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_installer.exe
 
 Only for Windows.
 Tested on:
