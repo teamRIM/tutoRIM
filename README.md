@@ -17,8 +17,8 @@ The CNRS makes no warranties of any kind on this software and shall in no event 
 
 # Contributors
 
-* Simon Labouesse
-* Claire Estibal
+* Simon Labouesse (development and implementation of algoRIM)
+* Claire Estibal  (creation of the interface for algoRIM)
 * Thomas Mangeat
 * Anne Sentenac
 * Jérôme Idier
