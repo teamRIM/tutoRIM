@@ -20,3 +20,6 @@ The CNRS makes no warranties of any kind on this software and shall in no event 
 * Simon Labouesse
 * Claire Estibal
 * Thomas Mangeat
+* Anne Sentenac
+* Jérôme Idier
+* Marc Allain
