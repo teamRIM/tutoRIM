@@ -19,6 +19,10 @@ The CNRS makes no warranties of any kind on this software and shall in no event 
 * simon.labouesse@gmail.com
 * thomas.mangeat@univ-tlse3.fr
 
+## Technical support
+
+* claire.estibal@univ-tlse3.fr
+
 # Contributors
 
 * Simon Labouesse (development and implementation of algoRIM)
