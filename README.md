@@ -1,6 +1,6 @@
-# AlgoRIM
+# Tutorial for AlgoRIM Interface
 
-Download: https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_installer.exe
+Download: https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1p1.exe
 
 Only for Windows.
 Tested on:
