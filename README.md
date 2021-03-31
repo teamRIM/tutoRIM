@@ -1,6 +1,6 @@
 # AlgoRIM
 
-Download: https://github.com/teamRIM/tutoRIM/raw/main/bin/MyAppInstaller_web.exe
+Download: https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_installer.exe
 
 Only for Windows.
 Tested on:
@@ -18,6 +18,10 @@ The CNRS makes no warranties of any kind on this software and shall in no event 
 
 * simon.labouesse@gmail.com
 * thomas.mangeat@univ-tlse3.fr
+
+## Technical support
+
+* claire.estibal@univ-tlse3.fr
 
 # Contributors
 
