@@ -36,8 +36,8 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1p1.exe
 > ### 4. Adjust parameters
 > * **PSF emission:** You can determine this PSF experimentally at the emission wavelength.  
 > * **PSF excitation:** You can use the free software *'PSF generator'* to generate this PSF at the excitation wavelength. As an alternative you can use the emission PSF.
-> * **Image expansion factor:** Physical size of pixels will be divided by this factor.
-> * **PSF expansion factor:** PSF physical size must be the same as for the image.
+> * **Image expansion factor:** Physical size of pixels will be divided by this factor.  
+> * **PSF expansion factor:** PSF physical size must be the same as for the final image after reconstruction.  
 > * **Number of iterations:** 
 > * **Pre-filtering parameter:**  
 
