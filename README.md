@@ -27,9 +27,9 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1p1.exe
 > * Other (ex: Micromanager...): No prerequisite on the name of the channels but they will not be differentiated.
 
 > ### 2. Input data
-> * **"Global folder" mode:** With this mode you can launch several reconstructions by selecting a folder containing several projects. It is based on Incoper's raw image backup mode: global_folder/sub_folder/images/RAW_DATA/   
-> * **"Raw data folder" mode:**   
-> * **"Only 1 file (Stream)" mode:**  
+> * **"Global folder" mode:** With this mode you can launch several reconstructions by selecting a folder containing several projects. It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images/RAW_DATA/. If you want you launch preview, you need to select precisely the raw data folder you want to launch preview on.
+> * **"Raw data folder" mode:** With this mode you can launch reconstruction on one folder containning several .tif files.  
+> * **"Only 1 file (Stream)" mode:**  With this mode you can launch reconstruction on one .tif file. 
 
 ## Contacts list
 
