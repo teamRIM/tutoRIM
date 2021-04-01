@@ -18,7 +18,6 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1p1.exe
 > * Internet connection
 > * Administrator rights on the computer
 > * Windows operating system (Tested on : Windows 10)
-> 
 
 > ### 1. Specify where your data comes from
 > 
@@ -30,6 +29,15 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1p1.exe
 > * **'Global folder' mode:** With this mode you can launch several reconstructions by selecting a folder containing several projects. It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images/RAW_DATA/. If you want you launch preview, you need to select precisely the raw data folder you want to launch preview on.
 > * **'Raw data folder' mode:** With this mode you can launch reconstruction on one folder containning several .tif files.  
 > * **'Only 1 file (Stream)' mode:**  With this mode you can launch reconstruction on one .tif file. You can set the number of raw images per reconstructed image ('Speckles per sequence'). These sequences can be overlaped to improve time resolution and denoising.   
+
+> ### 3. Select folder/file
+> 
+
+> ### 4. Adjust parameters
+> * **PSF emission:** You can determine this PSF experimentally at the emission wavelength.  
+> * **PSF excitation:** You can use the free software *'PSF generator'* to generate this PSF at the excitation wavelength. As an alternative you can use the emission PSF.
+> * **Image expansion factor:** 
+
 
 ## Contacts list
 
