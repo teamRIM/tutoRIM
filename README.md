@@ -31,7 +31,6 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1p1.exe
 > * **'Only 1 file (Stream)' mode:**  With this mode you can launch reconstruction on one .tif file. You can set the number of raw images per reconstructed image ('Speckles per sequence'). These sequences can be overlaped to improve time resolution and denoising.   
 
 > ### 3. Select folder/file
-> Files must contain less than 65 536 speckles.
 
 > ### 4. Adjust parameters
 > * **PSF emission:** You can determine this PSF experimentally at the emission wavelength.  
