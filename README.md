@@ -16,7 +16,7 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_0_installer.exe
 > ### Prerequisite to install AlgoRIM interface
 >
 > * Internet connection
-> * Administrator rights on the computer
+> * Administrator rights on the computer (In some instances the antivirus try to prevent the installation)
 > * Windows operating system (Tested on : Windows 10)
 
 > ### 1. Specify where your data comes from
