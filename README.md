@@ -9,8 +9,8 @@ In addition, you undertake **to include a citation (Mangeat et al., Super-resolv
 The CNRS makes no warranties of any kind on this software and shall in no event be liable for damages of any kind in connection with the use and exploitation of this technology. 
 
 ## Download
-Latest version AlgoRIM V1.1 (30/03/21)  
-https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1p1.exe
+Latest version AlgoRIM V1.0 (02/04/21)  
+https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_0_installer.exe
 
 
 > ### Prerequisite to install AlgoRIM interface
