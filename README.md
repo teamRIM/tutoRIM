@@ -28,7 +28,8 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_0_installer.exe
 > ### 2. Input data
 > * **'Global folder' mode:** With this mode you can launch several reconstructions by selecting a folder containing several projects. It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images/RAW_DATA/. If you want you launch preview, you need to select precisely the raw data folder you want to launch preview on.
 > * **'Raw data folder' mode:** With this mode you can launch reconstruction on one folder containning several .tif files.  
-> * **'Only 1 file (Stream)' mode:**  With this mode you can launch reconstruction on one .tif file. You can set the number of raw images per reconstructed image ('Speckles per sequence'). These sequences can be overlaped to improve time resolution and denoising.   
+<!---
+> * **'Only 1 file (Stream)' mode:**  With this mode you can launch reconstruction on one .tif file. You can set the number of raw images per reconstructed image ('Speckles per sequence'). These sequences can be overlaped to improve time resolution and denoising.--->   
 
 > ### 3. Select folder/file
 
