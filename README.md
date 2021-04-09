@@ -1,5 +1,9 @@
 # Tutorial for AlgoRIM Interface (Under construction 🛠️)
 
+## Mailing list
+
+Join the project mailing list by sending an email to claire.estibal@univ-tlse3.fr with the subject line "Join RIM project mailing list" to be informed of the release of new versions and key stages of the project. You can unsubscribe at any time by sending an email with the subject line "Leave RIM project mailing list".
+
 ## Conditions of use
 
 You are free to use this software **for research purposes only**, but **you must not transmit and distribute it without our consent (See contacts list)**.  
@@ -31,15 +35,21 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_0_installer.exe
 <!---
 > * **'Only 1 file (Stream)' mode:**  With this mode you can launch reconstruction on one .tif file. You can set the number of raw images per reconstructed image ('Speckles per sequence'). These sequences can be overlaped to improve time resolution and denoising.--->   
 
-> ### 3. Select folder/file
+> ### 3. Select folder<!--/file-->
 
 > ### 4. Adjust parameters
 > * **PSF emission:** You can determine this PSF experimentally at the emission wavelength.  
 > * **PSF excitation:** You can use the free software *'PSF generator'* to generate this PSF at the excitation wavelength. As an alternative you can use the emission PSF.
 > * **Image expansion factor:** Physical size of pixels will be divided by this factor.  
 > * **PSF expansion factor:** PSF physical size must be the same as for the final image after reconstruction.  
-> * **Number of iterations:** 
-> * **Pre-filtering parameter:**  
+> * **Number of iterations:** You can adjust this setting using preview mode.  
+> * **Pre-filtering parameter(Wiener):**  You can adjust this parameter with the adjust button and preview mode.
+
+> ### 5. Launch preview
+> This mode allows you to preview the reconstruction result on the first raw image. If you want to interrupt it, please use the stop button.  
+
+> ### 6. Launch reconstruction
+> This mode starts the reconstruction and saves your results in a folder named according to your settings.  
 
 
 ## Contacts list
