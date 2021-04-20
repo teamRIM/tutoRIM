@@ -44,6 +44,7 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_0_installer.exe
 > * **PSF expansion factor:** PSF physical size must be the same as for the final image after reconstruction.  
 > * **Number of iterations:** You can adjust this setting using preview mode.  
 > * **Pre-filtering parameter(Wiener):**  You can adjust this parameter with the adjust button and preview mode.
+> * **Regularization parameter:**  
 
 > ### 5. Launch preview
 > This mode allows you to preview the reconstruction result on the first raw image. If you want to interrupt it, please use the stop button.  
