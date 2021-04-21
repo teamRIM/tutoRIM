@@ -14,7 +14,7 @@ The CNRS makes no warranties of any kind on this software and shall in no event 
 
 ## Download
 Latest version AlgoRIM V1.1 (20/04/21)  
-https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_installer.exe
+https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 
 > ### Prerequisite to install AlgoRIM interface
 >
