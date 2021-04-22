@@ -1,3 +1,7 @@
+<!-- ## Quick introduction of RIM microscopy
+
+<!--(Le software ci-dessous est en lien avec le papier... DOI -->
+
 # Tutorial for AlgoRIM Interface (Under construction 🛠️)
 
 ## Mailing list
@@ -8,11 +12,12 @@ Join the project mailing list by sending an email to claire.estibal@univ-tlse3.f
 
 You are free to use this software **for research purposes only**, but **you must not transmit and distribute it without our consent (See contacts list)**.  
 
-In addition, you undertake **to include a citation (Mangeat et al., Super-resolved live-cell imaging using Random Illumination Microscopy, Cell Reports Methods, first issue 2021.)** whenever you present or publish results that are based on it.   
+In addition, you undertake **to include a citation (Mangeat et al., Super-resolved live-cell imaging using Random Illumination Microscopy, <!---Cell Reports Methods, first issue 2021. -->)** whenever you present or publish results that are based on it.   
 
 The CNRS makes no warranties of any kind on this software and shall in no event be liable for damages of any kind in connection with the use and exploitation of this technology. 
 
-## Download
+## Download AlgoRIM
+
 Latest version AlgoRIM V1.1 (20/04/21)  
 https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 
@@ -22,13 +27,16 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 > * Administrator rights on the computer (In some instances the antivirus try to prevent the installation)
 > * Windows operating system (Tested on : Windows 10)
 
+## Interface basic tutorial
+
 > ### 1. Specify where your data comes from
 > 
+> * Micromanager or compatible format (image matrix containing n raw speckle) : No prerequisite on the name of the channels but they will not be differentiated. (si exemple of micromanager files used in the paper)
 > * Inscoper: channel 0 is identify with 'c0' in the image name and channel 1 with 'c1'
 > * Abbelight: the image name begins with 'ROI2' or 'ROI1', depending on the channel
-> * Other (ex: Micromanager...): No prerequisite on the name of the channels but they will not be differentiated.
+> 
 
-> ### 2. Input data
+> ### 2. Managing Input data
 > * **'Global folder' mode:** With this mode you can launch several reconstructions by selecting a folder containing several projects. It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images/RAW_DATA/. If you want you launch preview, you need to select precisely the raw data folder you want to launch preview on.
 > * **'Raw data folder' mode:** With this mode you can launch reconstruction on one folder containning several .tif files.  
 <!---
@@ -36,11 +44,15 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 
 > ### 3. Select folder<!--/file-->
 
-> ### 4. Adjust parameters
+> ### 4. Adjust <!--optical--> parameters <!--from your microscope-->
 > * **PSF emission:** You can determine this PSF experimentally at the emission wavelength.  
+> <!--How to inject the good emission experimental PSF ? link psf extractor.-->
+> 
 > * **PSF excitation:** You can use the free software *'PSF generator'* to generate this PSF at the excitation wavelength. As an alternative you can use the emission PSF.
-> * **Image expansion factor:** Physical size of pixels will be divided by this factor.  
-> * **PSF expansion factor:** PSF physical size must be the same as for the final image after reconstruction.  
+> <!--How to inject the good PSF from simulation ? link psf generator -->
+> 
+> * **Image expansion factor:** pixel physical size of the output reconstruction image.  
+> * **PSF expansion factor:** pixel physical size must be the same as for the final image after reconstruction.  
 > * **Number of iterations:** You can adjust this setting using preview mode.  
 > * **Pre-filtering parameter(Wiener):**  You can adjust this parameter with the adjust button and preview mode.
 > * **Regularization parameter:**  
@@ -65,8 +77,8 @@ Technical support:
 
 * Simon Labouesse (AlgoRIM development and implementation)
 * Claire Estibal  (AlgoRIM interface development)
-* Thomas Mangeat
-* Anne Sentenac
-* Jérôme Idier
+* Thomas Mangeat  (Methodological part for biological reconstruction end imaging workflow)
+* Anne Sentenac   
+* Jérôme Idier    
 * Marc Allain
 
