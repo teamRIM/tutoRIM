@@ -77,7 +77,7 @@ Technical support:
 
 * Simon Labouesse (AlgoRIM development and implementation)
 * Claire Estibal  (AlgoRIM interface development)
-* Thomas Mangeat  (Methodological part for biological reconstruction end imaging workflow)
+* Thomas Mangeat  (Methodological part for biological reconstruction and imaging workflow)
 * Anne Sentenac   
 * Jérôme Idier    
 * Marc Allain
