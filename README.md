@@ -27,11 +27,11 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 > * Administrator rights on the computer (In some instances the antivirus try to prevent the installation)
 > * Windows operating system (Tested on : Windows 10)
 
-## Interface basic tutorial
+## How to use the interface
 
 > ### 1. Specify where your data comes from
 > 
-> * Micromanager or compatible format (image matrix containing n raw speckle) : No prerequisite on the name of the channels but they will not be differentiated. (si exemple of micromanager files used in the paper)
+> * Micromanager or compatible format (image matrix containing n raw speckle) : No prerequisite on the name of the channels but they will not be differentiated. (see example of micromanager files used in the paper)
 > * Inscoper: channel 0 is identify with 'c0' in the image name and channel 1 with 'c1'
 > * Abbelight: the image name begins with 'ROI2' or 'ROI1', depending on the channel
 > 
