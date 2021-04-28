@@ -29,13 +29,13 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 
 ## How to use the interface
 
-> ### 1. Specify where your data comes from
+> ### 1. Specify how the data are organized: 
 > 
-> * Micromanager or compatible format (image matrix containing n raw speckle) : No prerequisite on the name of the channels but they will not be differentiated. (see example of micromanager files used in the paper)
-> * Inscoper: channel 0 is identify with 'c0' in the image name and channel 1 with 'c1'
-> * Abbelight: the image name begins with 'ROI2' or 'ROI1', depending on the channel
+> * Micromanager or compatible format: The data are placed in a folder and organized as a unique TIF file containing the N raw speckled images. Enter the path of this folder.
+> * Inscoper: This option works only for data recorded using Inscoper. It enables the processing of different dataset in one click using the same parameters (PSF, regularisation). The different TIF files each containing multiple speckled images are placed in a RAW_DATA folder following the arborescence: global_folder/sub_folder/images/RAW_ DATA/. Inscoper allows the simultaneous recording of two color channels, identified with 'c0' in the TIF file name and channel 1 with 'c1'. In this case, two excitation and two observation PSF should be given.
+> * Abbelight: This works only for data recorded using Abbelight and is interesting when two color data are recorded simultaneously.  Enter the path of the folder containing two TIF files (with their name beginning by 'ROI2' or 'ROI1', depending on the channel).
 > 
-
+Inscoper
 > ### 2. Managing Input data
 > * **'Global folder' mode:** With this mode you can launch several reconstructions by selecting a folder containing several projects. It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images/RAW_DATA/. If you want you launch preview, you need to select precisely the raw data folder you want to launch preview on.
 > * **'Raw data folder' mode:** With this mode you can launch reconstruction on one folder containning several .tif files.  
