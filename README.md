@@ -12,7 +12,8 @@ Join the project mailing list by sending an email to claire.estibal@univ-tlse3.f
 
 You are free to use this software **for research purposes only**, but **you must not transmit and distribute it without our consent (See contacts list)**.  
 
-In addition, you undertake **to include a citation (Mangeat et al., Super-resolved live-cell imaging using Random Illumination Microscopy, <!---Cell Reports Methods, first issue 2021. -->)** whenever you present or publish results that are based on it.   
+In addition, you undertake **to include a citation (<!-- Mangeat et al., Super-resolved live-cell imaging using random illumination microscopy, Cell Reports Methods (2021),
+https://doi.org/10.1016/j.crmeth.2021.100009 --> )** whenever you present or publish results that are based on it.   
 
 The CNRS makes no warranties of any kind on this software and shall in no event be liable for damages of any kind in connection with the use and exploitation of this technology. 
 
