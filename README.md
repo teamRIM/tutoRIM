@@ -8,7 +8,7 @@ AlgoRIM is our image reconstruction interface allowing to achieve super-resoluti
 
 ### Mailing list
 
-Join the project mailing list by sending an email to claire.estibal@univ-tlse3.fr with the subject line "Join RIM project mailing list" to be informed of the release of new versions and key stages of the project. You can unsubscribe at any time by sending an email with the subject line "Leave RIM project mailing list".
+Join the project mailing list by sending an email to claire.estibal@univ-tlse3.fr with the subject line 'Join RIM project mailing list' to be informed of the release of new versions and key stages of the project. You can unsubscribe at any time by sending an email with the subject line 'Leave RIM project mailing list'.
 
 ### Conditions of use
 
@@ -31,43 +31,47 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 ## Example of use with our dataset
 
 1. First of all, start the download of AlgoRIM. If this is your first time installation this operation may take several minutes. Don't forget to add a shorcut to your desktop.   
-2. On your computer, create a folder named "AlgoRIM_Dataset" and a subfolder named "RAW_DATA" in it,  in order to be able to fill them with our dataset given as an example on this GitHub page. 
-3. Our dataset is on the "data" folder at the top of the Github page.
-4. Download PSF files in "AlgoRIM_Dataset" folder and ROI1_SUM_image_43_800.tif in "RAW_DATA" folder.
+2. On your computer, create a folder named 'AlgoRIM_Dataset' and a subfolder named 'RAW_DATA' in it,  in order to be able to fill them with our dataset given as an example on this GitHub page. 
+3. Our dataset is on the 'data' folder at the top of the Github page.
+4. Download PSF files in 'AlgoRIM_Dataset' folder and ROI1_SUM_image_43_800.tif in 'RAW_DATA' folder.
 5. Once your installation is complete, open AlgoRIM interface.
-6. *Images from:* Click on "Other".
+6. *Images from:* Click on 'Other'.
 7. *Input data:* Raw data folder is selected.
-8. *Select:* Select "RAW_DATA" folder.
+8. *Select:* Select 'RAW_DATA' folder.
 9. *PSF emission:* Select PSF256_520nm.tif.
 10. *PSF excitation:* Select PSF256_405nm.tif.
 11. *Image expansion factor:* 2
 12. *PSF expansion factor:* 1
 13. *Regularization parameter:* 0
 14. *Number of iterations:* 16
-15. *Pre-filtering parameter:* 0.008. You can click on the "Adjust" button to adjust it.
-16. You can click on "Launch preview" button. Use the "STOP" button if you don't want to wait until the end of the iterations.
-17. Click on "Launch" button.
-18. This will create a reconstruction folder in your "RAW_DATA" folder, with the reconstructed image in it.
+15. *Pre-filtering parameter:* 0.008. You can click on the 'Adjust' button to adjust it.
+16. You can click on 'Launch preview' button. Use the 'STOP' button if you don't want to wait until the end of the iterations.
+17. Click on 'Launch' button.
+18. This will create a reconstruction folder in your 'RAW_DATA' folder, with the reconstructed image in it.
 
 
 ## How to use AlgoRIM interface
 
 > ### 1. Specify where your data comes from
-> 
-> * Micromanager or compatible format (image matrix containing n raw speckle) : No prerequisite on the name of the channels but they will not be differentiated. (see example of micromanager files used in the paper)
-> * Inscoper: channel 0 is identify with 'c0' in the image name and channel 1 with 'c1'
-> * Abbelight: the image name begins with 'ROI2' or 'ROI1', depending on the channel
+> *Allow the interface to be able to identify and differentiate your channels.*
+> * If you select **Other**: No prerequisite on the name of the channels but they will not be differentiated during reconstruction. You can create a subfolder for each channel and reconstructed them separately.<!-- (see example of micromanager files used in the paper)-->
+> * **Inscoper**: channel 0 is identify with 'c0' in the image name and channel 1 with 'c1'
+> * **Abbelight**: the image name begins with 'ROI2' or 'ROI1', depending on the channel
 > 
 
-> ### 2. Managing Input data
-> * **'Global folder' mode:** With this mode you can launch several reconstructions by selecting a folder containing several projects. It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images/RAW_DATA/. If you want you launch preview, you need to select precisely the raw data folder you want to launch preview on.
-> * **'Raw data folder' mode:** With this mode you can launch reconstruction on one folder containning several .tif files.  
+> ### 2. Input data
+> *Select the type of the input data folder*
+> * **Raw data folder:** Launch reconstruction on one folder containning .tif files.  
+> * **Global folder:** Launch several reconstructions in a row by selecting a folder containing several projects.   
+It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images/RAW_DATA/. If you want you launch preview, you need to select precisely the raw data folder you want to launch preview on.
 <!---
 > * **'Only 1 file (Stream)' mode:**  With this mode you can launch reconstruction on one .tif file. You can set the number of raw images per reconstructed image ('Speckles per sequence'). These sequences can be overlaped to improve time resolution and denoising.--->   
 
 > ### 3. Select folder<!--/file-->
+> * This folder must contain one or more stack of n raw speckle.
+> * This folder must contain images in .tif format and square.
 
-> ### 4. Adjust <!--optical--> parameters <!--from your microscope-->
+> ### 4. Adjust parameters
 > * **PSF emission:** You can determine this PSF experimentally at the emission wavelength.  
 > <!--How to inject the good emission experimental PSF ? link psf extractor.-->
 > 
