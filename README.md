@@ -72,18 +72,41 @@ It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images
 > * This folder must contain images in .tif format and square.
 
 > ### 4. Adjust parameters
-> * **PSF emission:** You can determine this PSF experimentally at the emission wavelength.  
-> <!--How to inject the good emission experimental PSF ? link psf extractor.-->
-> 
-> * **PSF excitation:** You can use the free software *'PSF generator'* to generate this PSF at the excitation wavelength. As an alternative you can use the emission PSF.
-> <!--How to inject the good PSF from simulation ? link psf generator -->
-> 
-> * **Image expansion factor:** pixel physical size of the output reconstruction image.  
-> * **PSF expansion factor:** pixel physical size must be the same as for the final image after reconstruction.  
-> * **Number of iterations:** You can adjust this setting using preview mode.  
-> * **Pre-filtering parameter(Wiener):**  You can adjust this parameter with the adjust button and preview mode.
-> * **Regularization parameter:**  
-
+> **Over-sampling factor:**   
+> Raw images are usually recorded with a pixel-size about lambda/(4xNA), with lambda the wavelength of the
+   emitted light and NA the numerical aperture of the objective. The super-resolved reconstruction should be
+   discretized with a smaller pixel size. The over-sampling factor is the ratio between the pixel size of
+   the raw images and the pixel size of the reconstructed (super-resolved) image, e.g., 2 will produce an
+   output/reconstructed image with a pixel size that is half the native pixel size of the raw data.   
+>   
+> Remark: the reconstruction code is based on Fast Fourier Transforms, which are faster if the number of pixels
+    along any direction is a power of 2 (128, 256, 512, etc.). Of course this is not mandatory. The image must be square.   
+>    
+>  **Collection PSF:**   
+> PSF of the objective with respect to the  collected light (emitted by the fluorophores). This PSF can be estimated
+    experimentally or generated theoretically with a free software like 'PSF generator'.   
+>
+> The PSF file should be provided in .tif format and the maximum of the PSF should be at the center of the
+    image. Beware that this image should be provided with a pixel size corresponding to that of the super-resolved/reconstructed
+    image.    
+>    
+> **Excitation PSF:**   
+> PSF of the objective with respect to the illlumination light. This PSF corresponds to the autocorrelation of the
+    speckle; it can be generated with a free software like 'PSF generator'. Note that this PSF is not affected
+    by any aberration.   
+>
+> The PSF file should be provided in .tif format and the maximum of the PSF should be at the center of the image.
+    This image should be provided with a pixel size corresponding to that of the super-resolved/reconstructed image.
+>
+> **Number of iterations:**   
+> Number of iterative updates in the variance matching algorithm. The early stopping of the iterative scheme is
+    producing a Tikhonov-like regularization of the reconstruction. You can adjust this setting with the preview
+    mode showing the progression of the reconstructed image over the course of the algorithm.   
+>
+> **Pre-filtering parameter:**   
+> Each raw image is deconvolved using a Wiener filtering. You can adjust this parameter with the adjust button
+    in the preview mode.   
+>
 > ### 5. Launch preview
 > This mode allows you to preview the reconstruction result on the first raw image. If you want to interrupt it, please use the stop button.  
 
