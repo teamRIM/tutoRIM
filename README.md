@@ -80,7 +80,7 @@ It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images
    output/reconstructed image with a pixel size that is half the native pixel size of the raw data.   
 >   
 > Remark: the reconstruction code is based on Fast Fourier Transforms, which are faster if the number of pixels
-    along any direction is a power of 2 (128, 256, 512, etc.). Of course this is not mandatory. The image must be square.   
+    along any direction is a power of 2 (128, 256, 512, etc.). Of course this is not mandatory. Images must be square.   
 >    
 >  **Collection PSF:**   
 > PSF of the objective with respect to the  collected light (emitted by the fluorophores). This PSF can be estimated
