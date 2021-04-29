@@ -22,11 +22,11 @@ https://doi.org/10.1016/j.crmeth.2021.100009 --> )** whenever you present or pub
 Latest version AlgoRIM V1.1 (20/04/21)  
 https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 
-> ### Prerequisite to install AlgoRIM interface
->
-> * Internet connection
-> * Administrator rights on the computer (In some instances the antivirus try to prevent the installation)
-> * Windows operating system (Tested on : Windows 10)  
+#### Prerequisite to install AlgoRIM interface
+
+* Internet connection
+* Administrator rights on the computer (In some instances the antivirus try to prevent the installation)
+* Windows operating system (Tested on : Windows 10)  
 
 ## Example of use with our dataset
 
