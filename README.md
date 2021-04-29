@@ -26,7 +26,29 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 >
 > * Internet connection
 > * Administrator rights on the computer (In some instances the antivirus try to prevent the installation)
-> * Windows operating system (Tested on : Windows 10)
+> * Windows operating system (Tested on : Windows 10)  
+
+## Example of use with our datasets
+
+1. First of all, start the download of AlgoRIM. If this is your first time installation this operation may take several minutes. Don't forget to add a shorcut to your desktop.   
+2. On your computer, create a folder named "AlgoRIM_Datasets" and a subfolder named "RAW_DATA" in it,  in order to be able to fill them with our datasets given as an example. 
+3. Our dataset is on the "data" folder at the top of the Github page.
+4. Download PSF files in "AlgoRIM_Datasets" folder and ROI1_SUM_image_43_800.tif in "RAW_DATA" folder.
+5. Once your installation is complete, open AlgoRIM interface.
+6. *Images from:* Click on "Other".
+7. *Input data:* Raw data folder is selected.
+8. *Select:* Select "RAW_DATA" folder.
+9. *PSF emission:* Select PSF256_520nm.tif.
+10. *PSF excitation:* Select PSF256_405nm.tif.
+11. *Image expansion factor:* 2
+12. *PSF expansion factor:* 1
+13. *Regularization parameter:* 0
+14. *Number of iterations:* 16
+15. *Pre-filtering parameter:* 0.008. You can click on the "Adjust" button to adjust it.
+16. You can click on "Launch preview" button. The first launch is always a little longer because AlgoRIM detects the calculation parallelization possibilities of your computer.
+17. Use the "STOP" button if you don't want to wait until the end of the iterations.
+18. Click on "Launch" button.
+19. This will create a reconstruction folder next to your "RAW_DATA" folder, with the reconstructed image in it.
 
 ## How to use the interface
 
