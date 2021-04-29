@@ -31,9 +31,9 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 ## Example of use with our datasets
 
 1. First of all, start the download of AlgoRIM. If this is your first time installation this operation may take several minutes. Don't forget to add a shorcut to your desktop.   
-2. On your computer, create a folder named "AlgoRIM_Datasets" and a subfolder named "RAW_DATA" in it,  in order to be able to fill them with our datasets given as an example. 
+2. On your computer, create a folder named "AlgoRIM_Dataset" and a subfolder named "RAW_DATA" in it,  in order to be able to fill them with our dataset given as an example. 
 3. Our dataset is on the "data" folder at the top of the Github page.
-4. Download PSF files in "AlgoRIM_Datasets" folder and ROI1_SUM_image_43_800.tif in "RAW_DATA" folder.
+4. Download PSF files in "AlgoRIM_Dataset" folder and ROI1_SUM_image_43_800.tif in "RAW_DATA" folder.
 5. Once your installation is complete, open AlgoRIM interface.
 6. *Images from:* Click on "Other".
 7. *Input data:* Raw data folder is selected.
