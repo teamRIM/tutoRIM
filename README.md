@@ -45,10 +45,9 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 13. *Regularization parameter:* 0
 14. *Number of iterations:* 16
 15. *Pre-filtering parameter:* 0.008. You can click on the "Adjust" button to adjust it.
-16. You can click on "Launch preview" button. The first launch is always a little longer because AlgoRIM detects the calculation parallelization possibilities of your computer.
-17. Use the "STOP" button if you don't want to wait until the end of the iterations.
-18. Click on "Launch" button.
-19. This will create a reconstruction folder in your "RAW_DATA" folder, with the reconstructed image in it.
+16. You can click on "Launch preview" button. Use the "STOP" button if you don't want to wait until the end of the iterations.
+17. Click on "Launch" button.
+18. This will create a reconstruction folder in your "RAW_DATA" folder, with the reconstructed image in it.
 
 ## How to use the interface
 
