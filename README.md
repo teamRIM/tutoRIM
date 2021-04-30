@@ -1,4 +1,4 @@
-# Tutorial for AlgoRIM Interface (Under construction 🛠️)
+# Tutorial for AlgoRIM Interface
 
 Welcome to our Github page dedicated to Random Illumination Microscopy images reconstruction!   
 
