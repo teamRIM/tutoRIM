@@ -1,7 +1,10 @@
 # Tutorial for AlgoRIM Interface (Under construction 🛠️)
 
 Welcome to our Github page dedicated to Random Illumination Microscopy images reconstruction!   
-**This page is linked to the following publication:**
+
+**This page is linked to the following publication:**    
+Mangeat et al., Super-resolved live-cell imaging using random illumination microscopy, Cell Reports Methods (2021),
+https://doi.org/10.1016/j.crmeth.2021.100009
 
 AlgoRIM is our image reconstruction interface allowing to achieve super-resolution based on the properties of the Random Illumination Microscopy (RIM).
 **Download AlgoRIM and test it! You will find below a tutorial to guide you step by step.** 
@@ -13,8 +16,8 @@ Join the project mailing list by sending an email to claire.estibal@univ-tlse3.f
 ### Conditions of use
 
 * You are free to use this software **for research purposes only**, but **you must not transmit and distribute it without our consent (See contacts list)**.  
-* In addition, you undertake **to include a citation (<!-- Mangeat et al., Super-resolved live-cell imaging using random illumination microscopy, Cell Reports Methods (2021),
-https://doi.org/10.1016/j.crmeth.2021.100009 --> )** whenever you present or publish results that are based on it.   
+* In addition, you undertake **to include a citation, Mangeat et al., Super-resolved live-cell imaging using random illumination microscopy, Cell Reports Methods (2021),
+https://doi.org/10.1016/j.crmeth.2021.100009**, whenever you present or publish results that are based on it.   
 * The CNRS makes no warranties of any kind on this software and shall in no event be liable for damages of any kind in connection with the use and exploitation of this technology. 
 
 ## Download AlgoRIM
