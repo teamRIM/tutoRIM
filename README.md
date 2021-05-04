@@ -9,6 +9,10 @@ https://doi.org/10.1016/j.crmeth.2021.100009
 AlgoRIM is our image reconstruction interface allowing to achieve super-resolution based on the properties of the Random Illumination Microscopy (RIM).
 **Download AlgoRIM and test it! You will find below a tutorial to guide you step by step.** 
 
+### Data
+
+If you want the images shown in our publication please send an email to claire.estibal@univ-tlse3.fr.   
+
 ### Mailing list
 
 Join the project mailing list by sending an email to claire.estibal@univ-tlse3.fr with the subject line 'Join RIM project mailing list' to be informed of the release of new versions and key stages of the project. You can unsubscribe at any time by sending an email with the subject line 'Leave RIM project mailing list'.
