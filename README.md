@@ -26,8 +26,12 @@ https://doi.org/10.1016/j.crmeth.2021.100009**, whenever you present or publish 
 
 ## Download AlgoRIM
 
-Latest version AlgoRIM V1.1 (20/04/21)  
+Latest version (16/12/21) AlgoRIM V1.2 https://github.com/teamRIM/tutoRIM/raw/main/AlgoRIM_V1_2_installer_web.exe
+
+<!--
+Latest version AlgoRIM V1.1 (20/04/21)
 https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
+-->
 
 #### Prerequisite to install AlgoRIM interface
 
@@ -67,16 +71,20 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 > 
 
 > ### 2. Input data
-> *Select the type of the input data folder*
-> * **Raw data folder:** Launch reconstruction on one folder containning .tif files.  
+> *Select the type of the input data*
 > * **Global folder:** Launch several reconstructions in a row by selecting a folder containing several projects.   
 It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images/RAW_DATA/. If you want you launch preview, you need to select precisely the raw data folder you want to launch preview on.
-<!---
-> * **'Only 1 file (Stream)' mode:**  With this mode you can launch reconstruction on one .tif file. You can set the number of raw images per reconstructed image ('Speckles per sequence'). These sequences can be overlaped to improve time resolution and denoising.--->   
+> * **Raw data folder:** Launch reconstruction on one folder containning .tif files.  
+> * **Only 1 file (Stream):**  With this mode you can launch reconstruction on one .tif file.
 
-> ### 3. Select folder<!--/file-->
-> * This folder must contain one or more stack of n raw speckle.
-> * This folder must contain images in .tif format and square.
+> *Select how to reconstruct the input data*
+>  * **Full file:** 1 raw data file => 1 reconstructed file
+>  * **Sequential:** Set the number of raw images per reconstructed image.
+>  * **Interleaved:** Like the Sequential mode, it divides file in sequences but they are interleaved. The 1st speckle of the n+1 sequence is x speckles after the 1st speckle of the n sequence. x is the gap value. It improves time resolution and denoising.
+
+> ### 3. Select folder ou file
+> * Folder must contain raw data files of one or more raw data image.
+> * Files must be in .tif format. <!-- and square. -->
 
 > ### 4. Adjust parameters
 > **Over-sampling factor:**   
