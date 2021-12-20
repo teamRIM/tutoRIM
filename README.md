@@ -28,6 +28,10 @@ https://doi.org/10.1016/j.crmeth.2021.100009**, whenever you present or publish 
 
 Latest version (20/12/21) AlgoRIM V1.2 https://github.com/teamRIM/tutoRIM/raw/main/AlgoRIM_V1_2_installer_web.exe
 
+Release notes :
+* Better denoising and data normalization
+* Less iterations: algorithm converges faster
+
 <!--
 Latest version AlgoRIM V1.1 (20/04/21)
 https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
@@ -41,25 +45,26 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 
 ## Example of use with our dataset
 
-1. First of all, start the download of AlgoRIM. If this is your first time installation this operation may take several minutes. Don't forget to add a shorcut to your desktop.   
-2. On your computer, create a folder named 'AlgoRIM_Dataset' and a subfolder named 'RAW_DATA' in it,  in order to be able to fill them with our dataset given as an example on this GitHub page. 
-3. Our dataset is on the 'data' folder at the top of the Github page.
-4. Download PSF files in 'AlgoRIM_Dataset' folder and ROI1_SUM_image_43_800.tif in 'RAW_DATA' folder.
-5. Once your installation is complete, open AlgoRIM interface.
-6. *Images from:* Click on 'Other'.
-7. *Input data:* Raw data folder is selected.
-8. *Select:* Select 'RAW_DATA' folder.
-9. *PSF emission:* Select PSF256_520nm.tif.
-10. *PSF excitation:* Select PSF256_405nm.tif.
-11. *Image expansion factor:* 2
-12. *PSF expansion factor:* 1
-13. *Regularization parameter:* 0
-14. *Number of iterations:* 16
-15. *Pre-filtering parameter:* 0.008. You can click on the 'Adjust' button to adjust it.
-16. You can click on 'Launch preview' button. Use the 'STOP' button if you don't want to wait until the end of the iterations.
-17. Click on 'Launch' button.
-18. This will create a reconstruction folder in your 'RAW_DATA' folder, with the reconstructed image in it.
-
+1. Click on the green button "Code", then "Download ZIP".
+2. Unzip the folder.
+3. You will find a folder named "data" that contains the file we want to reconstruct for this example and the PSF we need.
+4. Start the download of AlgoRIM by clicking on "AlgoRIM_V1_2_installer_web.exe". Follow the process. This operation may take several minutes. Don't forget to add a shorcut to your desktop.
+5. Once your installation is complete, open AlgoRIM_V1_2 interface.
+6. *Images from:* 'Other'
+7. *Input data:* 'Only 1 file (Stream)'
+8. *File reconstruction mode:* 'Full file'
+9. *Select:* Go in the folder you previously unziped, then in he folder 'data' select 'ROI1_SUM_image_43_800.tif'
+10. *PSF emission:* 'PSF256_520nm.tif'
+11. *PSF excitation:* 'PSF256_405nm.tif'
+12. *Image expansion factor:* 2
+13. *PSF expansion factor:* 1
+14. *Regularization parameter:* 0.15 <!-- V1_1   *Regularization parameter:* 0 -->
+15. *Number of iterations:* 4  <!-- V1_1 *Number of iterations:* 16 -->
+16. *Pre-filtering parameter:* 0.05. You can click on the 'Adjust' button to adjust it. <!-- V1_1 *Pre-filtering parameter:* 0.008. -->
+17. Make sure that the cutoff frequency matches your system.
+18. You can click on 'Launch preview' to start preview. Use the 'STOP' button if you don't want to wait until the end of the iterations.
+19. Click on 'Launch' to reconstruct the file.
+20. This will create a reconstruction folder in 'data' folder, with the reconstructed image in it.
 
 ## How to use AlgoRIM interface
 
@@ -134,6 +139,7 @@ It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images
 Distribution request:
 * simon.labouesse@gmail.com
 * thomas.mangeat@univ-tlse3.fr
+* claire.estibal@univ-tlse3.fr
 
 Technical support:
 * claire.estibal@univ-tlse3.fr
