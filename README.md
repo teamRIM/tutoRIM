@@ -26,7 +26,7 @@ https://doi.org/10.1016/j.crmeth.2021.100009**, whenever you present or publish 
 
 ## Download AlgoRIM
 
-Latest version (16/12/21) AlgoRIM V1.2 https://github.com/teamRIM/tutoRIM/raw/main/AlgoRIM_V1_2_installer_web.exe
+Latest version (20/12/21) AlgoRIM V1.2 https://github.com/teamRIM/tutoRIM/raw/main/AlgoRIM_V1_2_installer_web.exe
 
 <!--
 Latest version AlgoRIM V1.1 (20/04/21)
