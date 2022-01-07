@@ -64,7 +64,7 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 17. Make sure that the cutoff frequency matches your system.
 18. You can click on 'Launch preview' to start preview. Use the 'STOP' button if you don't want to wait until the end of the iterations.
 19. Click on 'Launch' to reconstruct the file.
-20. This will create a reconstruction folder in 'data' folder, with the reconstructed image in it.
+20. This will create a reconstruction folder in 'test_data' folder, with the reconstructed image in it.
 
 ## How to use AlgoRIM interface
 
