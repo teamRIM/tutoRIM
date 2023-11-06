@@ -11,11 +11,7 @@ AlgoRIM is our image reconstruction interface allowing to achieve super-resoluti
 
 ### Data
 
-If you want the images shown in our publication please send an email to claire.estibal@univ-tlse3.fr.   
-
-### Mailing list
-
-Join the project mailing list by sending an email to claire.estibal@univ-tlse3.fr with the subject line 'Join RIM project mailing list' to be informed of the release of new versions and key stages of the project. You can unsubscribe at any time by sending an email with the subject line 'Leave RIM project mailing list'.
+If you want the images shown in our publication please send an email to thomas.mangeat@univ-tlse3.fr or simon.labouesse@univ-tlse3.fr
 
 ### Conditions of use
 
@@ -139,10 +135,6 @@ It is based on Inscoper's raw image backup mode: global_folder/sub_folder/images
 Distribution request:
 * simon.labouesse@gmail.com
 * thomas.mangeat@univ-tlse3.fr
-* claire.estibal@univ-tlse3.fr
-
-Technical support:
-* claire.estibal@univ-tlse3.fr
 
 ## Contributors
 
