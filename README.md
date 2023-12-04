@@ -22,7 +22,8 @@ https://doi.org/10.1016/j.crmeth.2021.100009**, whenever you present or publish 
 
 ## Download AlgoRIM
 
-Latest version (07/01/22) AlgoRIM V1.2 https://github.com/teamRIM/tutoRIM/raw/main/AlgoRIM_V1_2_installer_web.exe
+Latest version (07/01/22) AlgoRIM V1.2 
+https://drive.google.com/file/d/1UQFCzHoaEWrVrhQcyTcM3R10Zs_K19k7/view?usp=drive_link
 
 Release notes :
 * Better denoising and data normalization
@@ -37,13 +38,13 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 
 * Internet connection
 * Administrator rights on the computer (In some instances the antivirus try to prevent the installation)
-* Windows operating system (Tested on : Windows 10)  
+* Windows operating system (Tested on : Windows 10 and 11 pro)  
 
 ## Example of use with our dataset
 
-1. Use this link and download all the content: https://drive.google.com/drive/folders/1RaTnYmiLcuHZRmuAerS5AO1xdAoXMKY8?usp=sharing
+1. Use this link and download all the content: https://drive.google.com/file/d/1UQFCzHoaEWrVrhQcyTcM3R10Zs_K19k7/view?usp=drive_link
 2. Unzip the folder.
-3. You will find a folder named "test_data" that contains the file we want to reconstruct for this example and the PSF we need.
+3. You will find a folder named "data" that contains the file we want to reconstruct for this example and the PSF we need.
 4. Start the download of AlgoRIM by clicking on "AlgoRIM_V1_2_installer_web.exe". Follow the process. This operation may take several minutes. Don't forget to add a shorcut to your desktop.
 5. Once your installation is complete, open AlgoRIM_V1_2 interface.
 6. *Images from:* 'Other'
@@ -60,7 +61,7 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 17. Make sure that the cutoff frequency matches your system.
 18. You can click on 'Launch preview' to start preview. Use the 'STOP' button if you don't want to wait until the end of the iterations.
 19. Click on 'Launch' to reconstruct the file.
-20. This will create a reconstruction folder in 'test_data' folder, with the reconstructed image in it.
+20. This will create a reconstruction folder in 'data' folder, with the reconstructed image in it.
 
 ## How to use AlgoRIM interface
 
