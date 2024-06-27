@@ -23,7 +23,7 @@ https://doi.org/10.1016/j.crmeth.2021.100009**, whenever you present or publish 
 ## Download AlgoRIM
 
 Latest version (07/01/22) AlgoRIM V1.2 
-https://drive.google.com/file/d/1UQFCzHoaEWrVrhQcyTcM3R10Zs_K19k7/view?usp=drive_link
+https://drive.google.com/file/d/1-5DktHl8sr4dykBrrwYh86hwuHcNbJF0/view?usp=sharing
 
 Release notes :
 * Better denoising and data normalization
