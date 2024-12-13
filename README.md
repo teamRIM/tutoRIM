@@ -24,7 +24,7 @@ https://doi.org/10.1016/j.crmeth.2021.100009**, whenever you present or publish 
 
 Latest version (07/01/22) AlgoRIM V1.2 
 
-https://drive.google.com/file/d/1-5DktHl8sr4dykBrrwYh86hwuHcNbJF0/view?usp=sharing
+https://drive.google.com/file/d/1Ckt0s1EXSDnd1vW01BUrxQ5LxAwhcVqm/view?usp=sharing
 
 Release notes :
 * Better denoising and data normalization
@@ -43,7 +43,7 @@ https://github.com/teamRIM/tutoRIM/raw/main/bin/AlgoRIM_V1_1_2_installer.exe
 
 ## Example of use with our dataset
 
-1. Use this link and download all the content: https://drive.google.com/file/d/1-5DktHl8sr4dykBrrwYh86hwuHcNbJF0/view?usp=sharing
+1. Use this link and download all the content: https://drive.google.com/file/d/1Ckt0s1EXSDnd1vW01BUrxQ5LxAwhcVqm/view?usp=sharing
 2. Unzip the folder.
 3. You will find a folder named "data" that contains the file we want to reconstruct for this example and the PSF we need.
 4. Start the download of AlgoRIM by clicking on "AlgoRIM_V1_2_installer_web.exe". Follow the process. This operation may take several minutes. Don't forget to add a shorcut to your desktop.
